@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #f6f8fa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    border: 1px solid black;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    padding: 1px;
+}
+
+.navbar-logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.github-logo {
+    font-size: 2rem;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+}
+
+.search-input input[type="text"] {
+    padding: 5px;
+    margin: 1px;
+}
+
+.search-icon {
+    font-size: 1.5rem;
+}
+
+.menu-button {
+    background-color: #fffbfb;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background-color: #ccc;
+}
+
+.menu-popup {
+    display: none;
+    position: absolute;
+    background-color: #fcf7f7;
+    border: 1px solid #e0dbdb;
+    padding: 5px;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:hover {
+    background-color: #e7e3e3;
+}
