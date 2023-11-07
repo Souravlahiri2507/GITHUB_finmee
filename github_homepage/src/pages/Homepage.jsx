@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Side from "../components/Side";
 import "../css/Homepage.css";
 import Footer from "../components/Footer";
+import Content from "../components/Content";
 
 const Homepage = () => {
   return (
@@ -13,7 +14,7 @@ const Homepage = () => {
             <Side/>
         </div>
         <div class="main-content">
-            
+            <Content/>
         </div>
     </div>
     <Footer/>
